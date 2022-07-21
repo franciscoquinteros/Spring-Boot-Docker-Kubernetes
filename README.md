@@ -1,1 +1,1 @@
-Hola soy Francisco Quinteros
+Project that includes a microservices architecture with Docker, Docker Compose, Multi-Container, Kubernetes and Spring Cloud Kubernetes, from the most basic concepts to a complete ecosystem of interconnected services through registration and dynamic scaling with Kubernetes (Integrated with Spring Cloud), Spring Cloud Gateway (gateway), load balancing with LoadBalancer. In addition to automating, scaling and deploying in production Docker and Kubernetes containerized microservices on Amazon AWS, ECS and EKS.
