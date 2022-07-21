@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: mysql8
+  name: mysql8
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysql8
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: mysql8
+    spec:
+      containers:
+      - image: mysql:8
+        name: mysql
+        ports:
+        - containerPort: 3306
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          value: Password123#@!
+        - name: MYSQL_DATABASE
+          value: msvc_usuarios
+        resources: {}
+status: {}
